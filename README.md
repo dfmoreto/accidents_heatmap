@@ -7,13 +7,15 @@ Accidents are filtered to show only those with injuried people.
 # How to run?
 
 1- First, go to this link, download data you want:
+
 https://www.prf.gov.br/portal/dados-abertos/acidentes
 
 2- Unpack files you've downloded and put them inside `files` folder at root of project
 
 3- Then, you can adusts range date at `chart.py` at line 12
 `for year in range(2017, 2020):`
-This one, for example, will consider data from 2017 to 2019
+
+> This one, for example, will consider data from 2017 to 2019
 
 4- Run `python chart.py`
 
